@@ -1,0 +1,225 @@
+@import "colors";
+// @mixin border-radius($radius) {
+//     -webkit-border-radius: $radius;
+//     -moz-border-radius: $radius;
+//     -ms-border-radius: $radius;
+//     border-radius: $radius;
+// }
+// @mixin border-style($style, $width, $color) {
+//   border-style: $style;
+//   border-width: $width;
+//   border-color: $color;
+//   width: 500px;
+// }
+//
+// .div1 {
+//   @include border-style($style: solid, $width: 15px, $color: $color2);
+//   @include border-radius($radius: 8px);
+//   margin: auto;
+// }
+// .div2 {
+// @extend .div1;
+// border-color: $color1;
+// }
+//
+// h1 {
+//   font-family: $font;
+//   text-align: center;
+//   &.app1 {color: $color1};
+//   &.app2 {color: $color2};
+//   &.app3 {color: $color3};
+//   &.app4 {color: $color4};
+// }
+@mixin alignCenter($center){
+  text-align: $center
+}
+
+@import url('https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css');
+.cardContent {
+  background-color: $bgDarkBlue;
+  color: $colorWhite;
+  font-weight: 500;
+  width: 310px;
+  @include alignCenter($center: center)
+}
+
+.cardServices {
+  font-weight: 400;
+  width: 310px;
+  @include alignCenter($center: center)
+}
+
+.cardButton {
+  background-color: $lightBlue;
+  margin-top: 80px;
+}
+
+.cardButtonService {
+  margin-top: 30px;
+}
+
+.aboutHeader {
+  font-size: 55px;
+  color: #0C3C60;
+  @include alignCenter($center: center)
+  margin-top: 60px;
+  padding-top: 50px;
+}
+
+.aboutThisSiteButton {
+  background-color: $lightBlue;
+  position: absolute;
+  left: 50%;
+  @include alignCenter($center: center)
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+.textFrontpage {
+  color: #0C3C60;
+  font-weight: 400;
+  @include alignCenter($center: center)
+  width: 80%;
+  margin: auto;
+}
+
+.contactFrontpage {
+  padding-top: 250px;
+  background-color: $bgDarkBlue;
+}
+
+.HeaderContact {
+  font-size: 55px;
+  color: $colorWhite;
+  @include alignCenter($center: center)
+  position: relative;
+  left: -80px;
+  top: 30px;
+}
+
+.formAddress {
+  color: $colorWhite;
+  font-size: 19px;
+  font-weight: 400;
+  position: relative;
+  width: 300px;
+  left: 670px;
+  top: -460px;
+}
+
+.form {
+  width: 220px;
+  position: absolute;
+  left: 670px;
+  top: 410px;
+}
+
+.comments {
+  color: $colorWhite;
+  font-size: 19px;
+  font-weight: 400;
+  position: absolute;
+  width: 300px;
+  left: 970px;
+  top: 350px;
+}
+
+.commentList {
+  position: relative;
+  border-radius: 5px;
+  left: -40px;
+  top: 20px;
+  width: 300px;
+  padding-left: 10px;
+  padding-top: -10px;
+  margin-top:15px;
+  background-color: $colorWhite;
+  color: gray;
+}
+
+.postButton {
+  position: relative;
+  left: 250px;
+  top: 15px;
+  border-radius: 5px;
+  background-color:$lightBlue;
+  border: 0px;
+  font-size: 12px;
+  padding: 7px;
+  width: 50px;
+}
+
+.menu {
+  position: fixed;
+  width: 100%;
+  background-color: $bgDarkBlue;
+  text-align: right;
+  top: 0px;
+  z-index: 1;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  display: inline-block;
+  margin: 25px 15px 25px 0;
+}
+
+.link {
+  color: $colorWhite;
+}
+
+.link:hover {
+  color: #77797c;
+}
+
+.reactText {
+  position: fixed;
+  left: 25px;
+  top: 15px;
+  color: $colorWhite;
+  font-size: 30px;
+  font-weight: 100;
+  text-decoration: none;
+}
+
+.hakan:hover {
+  color: #7DCADA;
+}
+
+.forts_hakan {
+  position: fixed;
+  left: 220px;
+  top: 15px;
+  font-size: 30px;
+  font-weight: 100;
+  color: #7DCADA;
+  text-decoration: none;
+}
+
+.forts_hakan:hover {
+  color: $colorWhite;
+}
+
+.cardImage {
+  width: 100px;
+  padding-top: 20px;
+  margin-left: 70px;
+  /* margin: auto; */
+}
+
+.footer {
+  width: 100%;
+  height: 100px;
+  color: $colorWhite;
+  font-size: 17px;
+  font-weight: 400;
+  /* vertical-align: middle; */
+  position: relative;
+  padding-top: 35px;
+  padding-left: 30px;
+  left: 0px;
+  top: 100px;
+}
