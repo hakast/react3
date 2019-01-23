@@ -30,8 +30,8 @@ class WrappedForm extends Component {
   handleSubmit = (event) => {
     event.preventDefault();
 
-  axios.post('http://hakvik.se/react3test/#/src/api/index.php/?/user',
-  // axios.post('http://localhost/myProjects/react-webpack/src/api/index.php/?/user',
+  // axios.post('http://hakvik.se/react3/#/src/api/index.php/?/user',
+  axios.post('http://localhost/myProjects/react3/src/api/index.php/?/user',
       querystring.stringify({
           fname: this.state.fname,
           lname: this.state.lname,
