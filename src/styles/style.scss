@@ -1,4 +1,6 @@
 @import "colors";
+@import url('https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css');
+
 // @mixin border-radius($radius) {
 //     -webkit-border-radius: $radius;
 //     -moz-border-radius: $radius;
@@ -34,7 +36,60 @@
   text-align: $center
 }
 
-@import url('https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css');
+.menu {
+  position: fixed;
+  width: 100%;
+  background-color: $bgDarkBlue;
+  text-align: right;
+  top: 0px;
+  z-index: 1;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  display: inline-block;
+  margin: 25px 15px 25px 0;
+}
+
+.link {
+  color: $colorWhite;
+}
+
+.link:hover {
+  color: #77797c;
+}
+
+.reactText {
+  position: fixed;
+  left: 25px;
+  top: 15px;
+  color: $colorWhite;
+  font-size: 30px;
+  font-weight: 100;
+  text-decoration: none;
+}
+
+.hakan:hover {
+  color: #7DCADA;
+}
+
+.forts_hakan {
+  position: fixed;
+  left: 220px;
+  top: 15px;
+  font-size: 30px;
+  font-weight: 100;
+  color: #7DCADA;
+  text-decoration: none;
+}
+
+.forts_hakan:hover {
+  color: $colorWhite;
+}
+
 .cardContent {
   background-color: $bgDarkBlue;
   color: $colorWhite;
@@ -149,59 +204,6 @@
   width: 50px;
 }
 
-.menu {
-  position: fixed;
-  width: 100%;
-  background-color: $bgDarkBlue;
-  text-align: right;
-  top: 0px;
-  z-index: 1;
-}
-
-ul {
-  list-style-type: none;
-}
-
-li {
-  display: inline-block;
-  margin: 25px 15px 25px 0;
-}
-
-.link {
-  color: $colorWhite;
-}
-
-.link:hover {
-  color: #77797c;
-}
-
-.reactText {
-  position: fixed;
-  left: 25px;
-  top: 15px;
-  color: $colorWhite;
-  font-size: 30px;
-  font-weight: 100;
-  text-decoration: none;
-}
-
-.hakan:hover {
-  color: #7DCADA;
-}
-
-.forts_hakan {
-  position: fixed;
-  left: 220px;
-  top: 15px;
-  font-size: 30px;
-  font-weight: 100;
-  color: #7DCADA;
-  text-decoration: none;
-}
-
-.forts_hakan:hover {
-  color: $colorWhite;
-}
 
 .cardImage {
   width: 100px;

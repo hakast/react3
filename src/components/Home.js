@@ -41,9 +41,8 @@ class Home extends Component {
           style={{
             width: '100%',
             margin: '0px'
-           }}
+          }}
         />
-
       <Row gutter={16}>
         <div style={{
           width: '1100px', margin: 'auto', paddingTop: '30px'}}
