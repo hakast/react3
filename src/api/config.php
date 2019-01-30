@@ -15,13 +15,12 @@ header('Access-Control-Allow-Methods: GET, POST, PUT, DELETE');
 
 
 
-$db = mysqli_connect('localhost', 'root', '', 'form');
-
-mysqli_query($db, "SET NAMES utf8");
-
-
-// $db = mysqli_connect('hakvik.se.mysql', 'hakvik_se_form', 'Augusti144Form', 'hakvik_se_form');
+// $db = mysqli_connect('localhost', 'root', '', 'form');
 
 // mysqli_query($db, "SET NAMES utf8");
 
-// 
+
+$db = mysqli_connect('hakvik.se.mysql', 'hakvik_se_form', 'Augusti144Form', 'hakvik_se_form');
+
+mysqli_query($db, "SET NAMES utf8");
+
