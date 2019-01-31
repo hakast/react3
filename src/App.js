@@ -13,21 +13,21 @@ class App extends Component {
 
   render() {
     return (
-      <div>
+      <div style={{'maxWidth': '800px', 'margin': 'auto'}}>
 
       <HashRouter>
         <div>
-          <ul  className="menu">
+          <ul className="menu">
             <li>
             <Link to="/home">
               <span className="reactText">React & Redux</span>
-              <span className="forts_hakan">med Håkan</span>
+              <span className="forts_hakan">project</span>
             </Link>
             </li>
-            <li><Link className="link" to="/about">Om</Link></li>
             <li><Link className="link" to="/services">Tjänster</Link></li>
             <li><Link className="link" to="/projects">Projekt</Link></li>
             <li><Link className="link" to="/clients">Klienter</Link></li>
+            <li><Link className="link" to="/about">Om</Link></li>
             <li><Link className="link" to="/contact">Kontakt/Kommentarer</Link></li>
           </ul>
 

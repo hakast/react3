@@ -66,9 +66,9 @@ return (
     <Alert
       style={{
         width: '344px',
-        position: 'fixed',
-        left: '670px',
-        top: '100px',
+        position: 'relative',
+        left: '270px',
+        top: '0px',
         zIndex: '4'
 
      }}

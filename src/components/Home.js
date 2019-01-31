@@ -45,7 +45,7 @@ class Home extends Component {
         />
       <Row gutter={16}>
         <div style={{
-          width: '1100px', margin: 'auto', paddingTop: '30px'}}
+          maxWidth: '820px', margin: 'auto', paddingTop: '30px'}}
           >
           <Col span={8}>
             <Card
@@ -54,9 +54,10 @@ class Home extends Component {
                 backgroundColor: '#0C3C60'
                }}
               headStyle={{
-                paddingLeft: '100px',
+                // paddingLeft: '100px',
                 color: 'lightGray',
-                backgroundColor: '#0C3C60'
+                backgroundColor: '#0C3C60',
+                margin: 'auto'
                }}
               className="cardContent"
               title="TJÄNSTER"
@@ -82,13 +83,16 @@ class Home extends Component {
                 backgroundColor: '#0C3C60'
                }}
               headStyle={{
-                paddingLeft: '100px',
+                // paddingLeft: '100px',
                 color: 'lightGray',
-                backgroundColor: '#0C3C60'
+                backgroundColor: '#0C3C60',
+                margin: 'auto'
                }}
               className="cardContent"
               title="PROJEKT"
-              bordered={false}>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean id metus id velit ullamcorper pulvinar. Curabitur ligula sapien, pulvinar a vestibulum quis, facilisis vel sapien. Pellentesque habitant morbi tristique.
+              bordered={false}
+              >Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean id metus id velit ullamcorper pulvinar. Curabitur ligula sapien, pulvinar a vestibulum quis, facilisis vel sapien. Pellentesque habitant morbi tristique.
+              <div>
               <Button
                 style={{ backgroundColor: '#6EA4CA' }}
                 onClick={this.props.clickProjects}
@@ -96,6 +100,7 @@ class Home extends Component {
                 type="primary">
                 Läs mer
               </Button>
+              </div>
             </Card>
           </Col>
 
@@ -106,13 +111,14 @@ class Home extends Component {
                 backgroundColor: '#0C3C60'
                }}
               headStyle={{
-                paddingLeft: '100px',
                 color: 'lightGray',
-                backgroundColor: '#0C3C60'
+                backgroundColor: '#0C3C60',
+                margin: 'auto'
                }}
               className="cardContent"
               title="KLIENTER"
               bordered={false}>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean id metus id velit ullamcorper pulvinar. Curabitur ligula sapien, pulvinar a vestibulum quis, facilisis vel sapien. Pellentesque habitant morbi tristique.
+              <div>
               <Button
                 style={{ backgroundColor: '#6EA4CA' }}
                 onClick={this.props.clickClients}
@@ -120,6 +126,7 @@ class Home extends Component {
                 type="primary">
                 Läs mer
               </Button>
+              </div>
             </Card>
           </Col>
         </div>
@@ -127,7 +134,9 @@ class Home extends Component {
 
       <Row gutter={16}>
       <div style={{
-          backgroundColor: '#D1E0EB'
+          backgroundColor: '#D1E0EB',
+          maxWidth: '800px',
+          margin: 'auto'
         }}>
         <p className="aboutHeader">Site built with state/props, then refactored using Redux</p>
         <p className="textFrontpage">
@@ -143,9 +152,11 @@ class Home extends Component {
 
     </Row>
 
-    <Row gutter={16}>
-      <Contact />
-    </Row>
+    {/* <Row gutter={16}>
+    <div style={{maxWidth: '800px', margin: 'auto'}}>
+    <Contact />
+    </div>
+    </Row> */}
 
     </div>)
   }

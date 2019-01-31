@@ -24,7 +24,6 @@ class Contact extends Component {
     return (
       <div  style={{
           width: '100%',
-          paddingTop: '51px',
           margin: 'auto',
           backgroundColor: 'lightGray'
         }}>
@@ -33,18 +32,18 @@ class Contact extends Component {
           fontSize: '5vw',
           color: 'white',
           textAlign: 'center',
-          position: 'absolute',
-          left: '100px',
-          top: '100px'
+          position: 'relative',
+          // left: '100px',
+          top: '150px'
          }}>
           Kontakt och kommentarer
         </p>
 
       <div className="contactFrontpage">
-        <Map/>
-        <ContactDetails/>
-        <Comments />
         <WrappedForm/>
+        <Comments />
+        <ContactDetails/>
+        <Map/>
         <Footer/>
       </div>
 

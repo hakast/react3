@@ -32,17 +32,27 @@
 //   &.app3 {color: $color3};
 //   &.app4 {color: $color4};
 // }
+// .siteWidth {
+//   max-width: 800px;
+//   margin: auto;
+// }
+
+body {
+  width: 800px;
+}
+
 @mixin alignCenter($center){
   text-align: $center
 }
 
 .menu {
   position: fixed;
-  width: 100%;
+  width: 800px;
   background-color: $bgDarkBlue;
   text-align: right;
   top: 0px;
   z-index: 1;
+  height: 50px;
 }
 
 ul {
@@ -51,7 +61,9 @@ ul {
 
 li {
   display: inline-block;
-  margin: 25px 15px 25px 0;
+  margin: 7px 15px 25px 0;
+  font-weight: 300;
+  font-size: 12px;
 }
 
 .link {
@@ -63,11 +75,11 @@ li {
 }
 
 .reactText {
-  position: fixed;
-  left: 25px;
-  top: 15px;
+  position: absolute;
+  left: 20px;
+  top: 10px;
   color: $colorWhite;
-  font-size: 30px;
+  font-size: 20px;
   font-weight: 100;
   text-decoration: none;
 }
@@ -77,10 +89,10 @@ li {
 }
 
 .forts_hakan {
-  position: fixed;
-  left: 220px;
-  top: 15px;
-  font-size: 30px;
+  position: absolute;
+  left: 140px;
+  top: 10px;
+  font-size: 20px;
   font-weight: 100;
   color: #7DCADA;
   text-decoration: none;
@@ -94,23 +106,23 @@ li {
   background-color: $bgDarkBlue;
   color: $colorWhite;
   font-weight: 500;
-  width: 310px;
+  width: 100%;
   @include alignCenter($center: center)
 }
 
 .cardServices {
   font-weight: 400;
-  width: 310px;
+  // width: 310px;
   @include alignCenter($center: center)
 }
 
 .cardButton {
   background-color: $lightBlue;
-  margin-top: 80px;
+  margin-top: 30px;
 }
 
 .cardButtonService {
-  margin-top: 30px;
+  margin-top: 15px;
 }
 
 .aboutHeader {
@@ -146,7 +158,7 @@ li {
 .HeaderContact {
   font-size: 55px;
   color: $colorWhite;
-  @include alignCenter($center: center)
+  @include alignCenter($center: center);
   position: relative;
   left: -80px;
   top: 30px;
@@ -154,19 +166,19 @@ li {
 
 .formAddress {
   color: $colorWhite;
-  font-size: 19px;
+  font-size: 10px;
   font-weight: 400;
-  position: relative;
+  position: absolute;
   width: 300px;
-  left: 670px;
-  top: -460px;
+  left: 285px;
+  top: 980px;
 }
 
 .form {
   width: 220px;
   position: absolute;
-  left: 670px;
-  top: 410px;
+  left: 285px;
+  top: 250px;
 }
 
 .comments {
@@ -175,8 +187,8 @@ li {
   font-weight: 400;
   position: absolute;
   width: 300px;
-  left: 970px;
-  top: 350px;
+  left: 620px;
+  top: 250px;
 }
 
 .commentList {

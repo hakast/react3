@@ -26,9 +26,9 @@ class Projects extends Component {
 
     return (
       <div  style={{
-          paddingTop: '100px',
+          paddingTop: '70px',
           margin: 'auto',
-          backgroundColor: 'white'
+          backgroundColor: 'white',
         }}>
         <div>
           <p
@@ -37,28 +37,27 @@ class Projects extends Component {
             letterSpacing: '3.5px',
             fontSize: '4.5rem',
             fontWeight: '300',
-            textAlign: 'center'
+            textAlign: 'center',
+            marginBottom: '20px'
           }}>PROJEKT</p>
           <p className="textFrontpage"
             style={{
-            width: '700px',
+            width: '800px',
             color: '#6EA4CA',
-            // letterSpacing: '2.5px',
             fontFamily: 'Verdana',
             lineHeight: '1.5em',
             fontSize: '1.0rem',
             fontWeight: '500',
             margin: 'auto',
-            paddingBottom: '50px',
-
+            paddingBottom: '10px',
            }}
            >
-             Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean id metus id velit ullamcorper pulvinar. Curabitur ligula sapien, pulvinar a vestibulum quis, facilisis vel sapien. Pellentesque habitant morbi tristique.
+             Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean id metus id velit ullamcorper pulvinar. Curabitur ligula sapien, pulvinar a vestibulum quis, facilisis vel sapien. 
          </p>
        </div>
       <Row gutter={16}>
         <div style={{
-          width: '1100px', margin: 'auto', paddingTop: '30px'}}
+          maxWidth: '830px', margin: 'auto', paddingTop: '30px'}}
           >
 
           <Col span={8}>
@@ -71,11 +70,12 @@ class Projects extends Component {
                   alt={''}
                   style={{
                     width: '100%',
+                    height: '160px',
                     paddingBottom: '20px'
                    }}
                 />
 
-                Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean id metus id velit ullamcorper pulvinar. Curabitur ligula sapien, pulvinar a vestibulum quis, facilisis vel sapien. Pellentesque habitant morbi.
+                Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean id metus id velit ullamcorper pulvinar. Curabitur ligula sapien, pulvinar a vestibulum quis, facilisis vel sapien. 
             </Card>
           </Col>
 
@@ -93,7 +93,7 @@ class Projects extends Component {
                    }}
                 />
 
-                Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean id metus id velit ullamcorper pulvinar. Curabitur ligula sapien, pulvinar a vestibulum quis, facilisis vel sapien. Pellentesque habitant morbi.
+                Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean id metus id velit ullamcorper pulvinar. Curabitur ligula sapien, pulvinar a vestibulum quis, facilisis vel sapien. 
             </Card>
           </Col>
 
@@ -111,7 +111,7 @@ class Projects extends Component {
                    }}
                 />
 
-                Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean id metus id velit ullamcorper pulvinar. Curabitur ligula sapien, pulvinar a vestibulum quis, facilisis vel sapien. Pellentesque habitant morbi.
+                Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean id metus id velit ullamcorper pulvinar. Curabitur ligula sapien, pulvinar a vestibulum quis, facilisis vel sapien.
             </Card>
           </Col>
 
