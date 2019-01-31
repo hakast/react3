@@ -51,7 +51,7 @@ class About extends Component {
       </div>
 
       <CardGroup style={{
-        width: '1100px',
+        width: '800px',
         margin: 'auto',
         paddingTop: '30px'
       }}>
@@ -75,7 +75,7 @@ class About extends Component {
             className="cardImage"
             src={about2} alt="Card image cap" overlay="white-slight"/>
           <CardBody>
-            <CardTitle tag="h5">Berta | Projektledning</CardTitle>
+            <CardTitle tag="h5">Berta | Projektledn</CardTitle>
             <CardText>Some quick example text to build on the card title and make up the bulk of the card's content.</CardText>
           </CardBody>
         </Card>
