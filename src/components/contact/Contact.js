@@ -22,19 +22,15 @@ class Contact extends Component {
   render() {
 
     return (
-      <div  style={{
-          width: '100%',
-          margin: 'auto',
-          backgroundColor: 'lightGray'
-        }}>
+      <div>
 
         <p style={{
-          fontSize: '5vw',
+          fontSize: '30px',
           color: 'white',
           textAlign: 'center',
           position: 'relative',
-          // left: '100px',
-          top: '150px'
+          left: '-140px',
+          top: '100px'
          }}>
           Kontakt och kommentarer
         </p>
@@ -47,7 +43,8 @@ class Contact extends Component {
         <Footer/>
       </div>
 
-    </div>)
+    </div>
+    )
   }
 
 };

@@ -17,7 +17,7 @@ class Map extends Component {
         <GoogleMapExample
           containerElement={ <div
             style={{ height: '350px', width: '350px',
-                    marginLeft: '100px', marginTop: '220px'
+                    marginLeft: '100px', marginTop: '-380px'
            }} /> }
           mapElement={ <div style={{ height: `100%` }} /> }
         />

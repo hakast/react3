@@ -31,7 +31,7 @@ class Home extends Component {
 
     return (
       <div  style={{
-          paddingTop: '80px',
+          paddingTop: '55px',
           margin: 'auto',
           backgroundColor: 'white'
         }}>

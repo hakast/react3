@@ -92,6 +92,12 @@ return (
   </div>
 
 <Form className = "form"
+        style={{marginLeft: '100px',
+        position: 'relative',
+        width: '220px',
+        // left: '200px',
+        top: '-150px'
+  }}
   onSubmit={this.handleSubmit}>
   <Row>
     <Col md={10}>

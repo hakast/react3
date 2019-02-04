@@ -7,7 +7,18 @@ class Comments extends Component {
 
   render() {
 
-    return (<div className="comments">
+    return (
+    <div 
+    style={{
+      color: 'white',
+      fontSize: '19px',
+      fontWeight: '400',
+      position: 'relative',
+      width: '300px',
+      left: '420px',
+      top: '-500px',
+    }}
+    >
       <h5 style={{
           color: 'white'
         }}>Kommentera</h5>
@@ -26,15 +37,6 @@ class Comments extends Component {
             color: 'white'
           }} onClick={this.props.submit}>Posta
         </button>
-
-        {/* <button
-            className=""
-            style={{ color: '#0C3C60'}} */
-        }
-        {/* onClick={this.props.itemDelete(index)}>{item} */}
-        {/* >Ångra
-          </button> */
-        }
 
       </form>
       <ul>
